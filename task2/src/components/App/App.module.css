@@ -1,0 +1,83 @@
+html {
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/1/97/co341S.jpg");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.87);;
+}
+
+.subjectsWrapper {
+  width: max-content;
+  transition: box-shadow 0.2s ease-in;
+  box-shadow: 0 0rem 0.75rem rgba(0, 255, 255, 0.2);
+  border-radius: 0.25rem;
+
+}
+
+.subjectsWrapper:hover {
+  box-shadow: 0 0rem 0.75rem rgba(0, 255, 255, 0.5);
+  -webkit-transition: .5s linear 0s;
+  -moz-transition: .5s linear 0s;
+  -o-transition: .5s linear 0s;
+  transition: .5s linear 0s
+}
+
+.subjectsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+}
+
+img {
+  height: 28.125rem;
+  border-radius: 5%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3.125rem;
+  margin-bottom: 0.625rem;
+  margin-top: 0.625rem;
+  color: yellow;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+  font-size: 1.25rem;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+  padding-left: 7.25rem;
+}
+
+
+button {
+  cursor: pointer;
+  color: #fff;
+  border-radius:0.625rem; 
+  padding: 0.5rem;
+  /* min-height:1.875rem;  */
+  /* min-width: 7.5rem; */
+  width: 400px;
+  text-align: center;
+  background-color:#2b2b2b;
+  opacity: 0.5;
+  border: 0.0625rem solid rgba(253, 11, 11, 0)
+}
+
+button:hover {
+  transition: 0.2s opacity ease-in-out;
+  opacity: 1;
+  border: 0.0625rem solid rgba(255, 255, 255, 0.336);
+}
+
+button:active {
+  border: 0.0625rem solid yellow;
+}
